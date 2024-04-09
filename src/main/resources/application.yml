@@ -1,3 +1,9 @@
 spring:
   application:
     name: reproducer_2934
+
+  cloud:
+    stream:
+      bindings:
+        parseActionconvertAction-out-0:
+          content-type: application/x-java-object;type=dev.schaer.reproducer_2934.model.ActionBase
